@@ -2,13 +2,13 @@
 
 ### Definitions
 
-A **class** is the definition of a data type. For example, the `Math` class provides all the methods that you can use on a string, such as the `random()` method.
+A **class** is the definition of a data type. For example, the `Math` class provides all the methods that we can use on a string, such as the `random()` method.
 
-An **object** is an instance (i.e. a concrete occurrence) of a class. For example, if you have the string `"Hello World!"` somewhere in your file, it would be a `String` object. 
+An **object** is an instance (i.e. a concrete occurrence) of a class. For example, if we have the string `"Hello World!"` somewhere in our file, it would be a `String` object. 
 
 A **variable** is value that can change over time. 
 
-A **constant** is a value that cannot change over time. Constants in Java should have the modifier `final`, which prevents you from reassigning its value in the same program.
+A **constant** is a value that cannot change over time. Constants in Java should have the modifier `final`, which prevents us from reassigning its value in the same program.
 
 The **scope** of a variable refers to where and when variable can be used.
 
@@ -18,7 +18,7 @@ A **class variable** is a variable that is declared within a class scope and has
 
 A **local variable** is a variable that is declared within a local scope. It may be used only within the context (e.g. a method or a loop) it was declared in. It is lost when its context is completed.
 
-A **data type** is the kind of data that a variable can store. Once you declare a variable or constant to be a specific data type, that variable or constant can only store values of that data type. There are many built-in data types, but you can also create your own data types using classes.
+A **data type** is the kind of data that a variable can store. Once we declare a variable or constant to be a specific data type, that variable or constant can only store values of that data type. There are many built-in data types, but we can also create our own data types using classes.
 
  
 
@@ -41,7 +41,7 @@ Here are all eight primitive data types in Java.
 | `boolean` | The values `true` or `false`.                                | `false`       |
 | `char`    | One Unicode character. It is enclosed in single quotation marks `'`. | `\u0000`      |
 
-When you are mentioning a variable or a constant for the first time, you **declare** it by writing its **data type** and choosing a name for the variable. You can choose to **assign** a value to the variable on the same line as the declaration, or you can choose to do this on a separate line.
+When we are mentioning a variable or a constant for the first time, we **declare** it by writing its **data type** and choosing a name for the variable. We can choose to **assign** a value to the variable on the same line as the declaration, or we can choose to do this on a separate line.
 
 For example, these two pieces of code accomplish essentially the same thing.
 
@@ -53,11 +53,11 @@ height = 10;  // assignment
 int height = 10;  // declaration and assignment combined
 ```
 
-If you declare a non-local variable or constant but do not assign a value to it, it will be assigned the data type's default value.  
+If we declare a non-local variable or constant but do not assign a value to it, it will be assigned the data type's default value.  
 
   
 
-If you would like to declare more than one variable or constant of the same data type, you may combine them all onto one line. 
+If we would like to declare more than one variable or constant of the same data type, we may combine them all onto one line. 
 
 For example, these two pieces of code accomplish essentially the same thing.
 
@@ -90,7 +90,7 @@ In different programming languages, there are different rules for naming. Here a
 * Constant names should use **screaming snake case**. This is snake case with all letters capitalized. (Think of it as screaming or yelling.)
 * Classes should use **Pascal case**.
 
-In general, you should use descriptive names for variables to help create code that is self-explanatory.
+In general, we should use descriptive names for variables to help create code that is self-explanatory.
 
 ### Special Characters
 
@@ -105,7 +105,7 @@ Special characters begin with a backslash `\`.
 | carriage return (i.e. enter or return) | `\r` |
 | newline                                | `\n` |
 
-Here is an example of how you can use a special character.
+Here is an example of how we can use a special character.
 
 ```java
 // Prints "This is Line 1" on the one line, then "This is Line 2" on the next line
@@ -121,7 +121,7 @@ System.out.println("This is Line 2");
 
 The backslash is called an **escape character**, since it "escapes" the next character.
 
-You can also use the escape character to create strings that contain double quotation marks and characters that contain a single quotation mark.
+We can also use the escape character to create strings that contain double quotation marks and characters that contain a single quotation mark.
 
 ```java
 System.out.println("\""); // Prints a double quotation mark
@@ -129,7 +129,7 @@ System.out.println("\"\""); // Prints two double quotation marks
 System.out.println('\''); // Prints a single quotation mark
 ```
 
-To create a string with a backslash, you put an escape character in front of it.
+To create a string with a backslash, we put an escape character in front of it.
 
 ```java
 System.out.println("\\"); // Prints a backslash
@@ -139,7 +139,7 @@ System.out.println("\\"); // Prints a backslash
 
 A **type conversion** occurs when a value is changed into a value of a different but compatible type. There are two kinds of type conversion: explicit and implicit.
 
-You can use **explicit conversion** (a.k.a. **casting**) by treating a variable of one data type as if it belongs to a different, yet similar, data type. You do this by enclosing the new type in parentheses and placing the name of the variable after the parentheses.
+We can use **explicit conversion** (a.k.a. **casting**) by treating a variable of one data type as if it belongs to a different, yet similar, data type. We do this by enclosing the new type in parentheses and placing the name of the variable after the parentheses.
 
 These are all the examples of casting that can be done in Java:
 
@@ -172,7 +172,7 @@ String s = "a" + 10;  // 10 is converted to the string "10"
 
 ### Mathematical Operators
 
-Java has the following built-in mathematical operators. You can use them to manipulate and calculate numeric values.
+Java has the following built-in mathematical operators. We can use them to manipulate and calculate numeric values.
 
 | Operator | Example              | New Value of `score`                                         |
 | -------- | -------------------- | ------------------------------------------------------------ |
@@ -190,12 +190,11 @@ Java has the following built-in mathematical operators. You can use them to mani
 | `++`     | `score++;`           | Adds 1 to the value of `score`.<br><br/>Essentially equivalent to `score = score + 1;` and `score += 1;`. |
 | `--`     | `score--;`           | Subtracts 1 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
 
-For other mathematical operators, you would need to use built-in methods from the class called `Math`. 
+For other mathematical operators, we would need to use built-in methods from the class called `Math`. 
 
 
 ### Java API
 
-The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/docs/api/) is a collection of prewritten packages, classes, and interfaces. You can use it to find out what packages, classes, and interfaces exist and how you can use them when you are writing code in Java.
+The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/docs/api/) is a collection of prewritten packages, classes, and interfaces. We can use it to find out what packages, classes, and interfaces exist and how we can use them when we are writing code in Java.
 
-For example, under **All Classes**, you can find **Math**. Under **Methods Summary**, you can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if you want to evaluate 2<sup>3</sup>, you would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
-
+For example, under **All Classes**, we can find **Math**. Under **Methods Summary**, we can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if we want to evaluate 2<sup>3</sup>, we would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
