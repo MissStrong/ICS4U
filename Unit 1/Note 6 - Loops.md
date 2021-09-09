@@ -91,7 +91,7 @@ If we have a loop inside of a loop, which is already inside another loop, there 
 
 ### Infinite Loops
 
-If a condition is never reached, a loop will run indefinitely with no end in sight until the program is stopped.
+If a condition is never reached, a loop will run indefinitely until the program is stopped.
 
 ```java
 for (int i = 1; i != 10; i += 2) {
