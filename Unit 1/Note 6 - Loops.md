@@ -2,13 +2,13 @@
 
 A **loop** is a structure that repeatedly executes a specified block of code. This process of repetition is called **iteration**. 
 
-If you wanted to repeat specific lines of code a specific number of times, or until a specific condition is met, you can use a loop to accomplish that.
+If we want to repeat specific lines of code a specific number of times, or until a specific condition is met, we can use a loop to accomplish that.
 
 There are three loop structures in Java: the *for loop*, the *while loop*, and the *do while loop*.
 
 ### For Loops
 
-You would generally use a *for loop* when you know how many times you want the block of code to* run.
+We would generally use a *for loop* when we know how many times we want the block of code to* run.
 
 Here is the general structure of a *for loop.
 
@@ -30,7 +30,7 @@ A *for loop* does the following:
 
 ### While Loops
 
-You would generally use a *while loop* when you know how to tell when the block of code should stop being running repeatedly.
+We would generally use a *while loop* when we know how to tell when the block of code should stop being running repeatedly.
 
 Here is the general structure of a *while loop*.
 
@@ -51,7 +51,7 @@ A *while loop* does the following.
 
 ### Do While Loops
 
-A *while loop* checks the condition before running the block of code. If you want the condition to be checked after the block of code is run once, you can use a *do while loop*. 
+A *while loop* checks the condition before running the block of code. If we want the condition to be checked after the block of code is run once, we can use a *do while loop*. 
 
 Here is the general structure of a *do while loop*.
 
@@ -65,7 +65,7 @@ do {
 
 ### Break and Continue
 
-At any point in a loop, you can use the keyword `break` to get out of the loop. The keyword `break` is somewhat controversial in computer science since some programmers consider it bad form. I am not one of them. You may use it in this course.
+At any point in a loop, we can use the keyword `break` to get out of the loop. The keyword `break` is somewhat controversial in computer science since some programmers consider it bad form. I am not one of them. We may use it in this course.
 
 The keyword `continue` is slightly less controversial, but again, I am okay with you using it in this course. When a loop is run and it reaches a `continue`, it skips to the end of the current iteration.
 
@@ -87,11 +87,11 @@ for (int i = 0; i <= 9; i++) {
 
 In this example, the for loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
 
-If you had a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
+If we have a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
 
 ### Infinite Loops
 
-If a condition is never reached, a loop may run indefinitely with no end in sight.
+If a condition is never reached, a loop will run indefinitely with no end in sight until the program is stopped.
 
 ```java
 for (int i = 1; i != 10; i += 2) {
