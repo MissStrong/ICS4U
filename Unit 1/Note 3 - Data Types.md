@@ -20,13 +20,9 @@ A **local variable** is a variable that is declared within a local scope. It may
 
 A **data type** is the kind of data that a variable can store. Once we declare a variable or constant to be a specific data type, that variable or constant can only store values of that data type. There are many built-in data types, but we can also create our own data types using classes.
 
- 
-
 All data types are either primitive or composite. A **primitive data type** (a.k.a. a **basic data type**) represents a single piece of information. If a data type isn't primitive, it is a **composite data type**. Whether a data type is primitive or composite depends on the programming language. 
 
 Working with primitive values is usually faster than working with composite values, because Java stores primitive values in a special way that makes memory and speed optimizations possible.
-
- 
 
 Here are all eight primitive data types in Java. 
 
@@ -54,8 +50,6 @@ int height = 10;  // declaration and assignment combined
 ```
 
 If we declare a non-local variable or constant but do not assign a value to it, it will be assigned the data type's default value.  
-
-  
 
 If we would like to declare more than one variable or constant of the same data type, we may combine them all onto one line. 
 
@@ -166,9 +160,7 @@ Here are some examples of coercion:
 ```java
 double d = 4;  // 4 is an int/long, but it is converted to the double 4.0
 String s = "a" + 10;  // 10 is converted to the string "10"
-
 ```
-
 
 ### Mathematical Operators
 
@@ -191,7 +183,6 @@ Java has the following built-in mathematical operators. We can use them to manip
 | `--`     | `score--;`           | Subtracts 1 from the value of `score`.<br><br/>Essentially equivalent to `score = score - 1;` and `score -= 1;`. |
 
 For other mathematical operators, we would need to use built-in methods from the class called `Math`. 
-
 
 ### Java API
 
