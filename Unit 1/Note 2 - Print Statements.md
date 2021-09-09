@@ -4,7 +4,7 @@
 
 The **console**, also known as the output window, is the default location where text gets printed to.
 
-In repl.it, the console is the black window on the right side of the screen.
+In Replit, the console is the black window on the right side of the screen.
 
 ![](../Images/Hello_World_Java_Full.png)
 
