@@ -9,7 +9,7 @@ Java has consistently been in the top three most popular programming langauges o
 
 ### Java Code
 
-Here is an example of the classic "Hello World" program, in which `Hello World` is printed onto the screen.
+Here is an example of the classic "Hello World" program, in which `Hello World` is printed to the screen.
 
 Here are some things worth noting now.
 
@@ -43,7 +43,7 @@ A class should be one of the following: `public`, `private`, or `protected`. If 
 
 #### 3. Methods
 
-You would have learned about functions in your Grade 11 computer science course. A method is a function that is contained in a class. Since every function in Java is contained in a class, every function in Java is a method. The words *method* and *function* can be used interchangeable in Java.
+You would have learned about functions in your Grade 11 computer science course. A method is a function that is contained in a class. Since every function in Java is contained in a class, every function in Java is a method. The words *method* and *function* can be used interchangeably in Java.
 
 When defining a method, you would write the following, in order:
 
@@ -66,16 +66,15 @@ Rules for method names:
 
 When you are talking about a method, you can append `()` at the end of its name to make it clear that it is a method, not a variable.
 
-At least one class in a package should contain a `main()` method. The content of a `main()` method is run when you run your program. In Java, the `main()` method must be `public`, `static`, and return a `void` value. The `main()` method has the parameter `String[] args` . (We'll get to what this means in a later lesson.)
+At least one class in a Java program should contain a `main()` method. The content of a `main()` method is run when you run your program. In Java, the `main()` method must be `public`, `static`, and return a `void` value. The `main()` method has the parameter `String[] args` . (We'll get to what this means in a later lesson.)
 
-### Writing Java Code Using Repl.it
+### Writing Java Code Using Replit
 
-In this course, we will be using [repl.it](http://repl.it) to write Java code. Repl.it is a web-based programming environment. It is not the best programming environment, however we are using it since it can be used on your Chromebooks as does not require you to download any software.
+In this course, we will be using [Replit](http://replit.com) to write Java code. Replit is a web-based programming environment. It is not the best programming environment, however we are using it since it can be used on your Chromebooks as does not require you to download any software.
 
-Here are a few things worth noting about writing Java code in repl.it that are different than other programming environments:
+Here are a few things worth noting about writing Java code in Replit that are different than other programming environments:
 
 * The top-level class is called `Main` by default and cannot be renamed. (We'll get to what top-level means in later lesson.)
 * The `main()` method must be inside the `Main` class. 
 * Files are not auto-filled when you first create them. You may have to do a lot of copy-pasting from other files when getting started.
-* [Javadocs](https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/) are only partially supported. These include tags in multi-line comments that begin with `/**`. Typically, you can use Javadocs to auto-generate a summary of documentation for each class and method, but you cannot do that with repl.it unfortunately.
-
+* [Javadocs](https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/) are only partially supported. These include tags in multi-line comments that begin with `/**`. Typically, we can use Javadocs to auto-generate a summary of documentation for each class and method, but we cannot do that with Replit unfortunately.
