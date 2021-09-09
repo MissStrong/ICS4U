@@ -2,7 +2,7 @@
 
 Java is a programming language similar to C++ and Turing. It is known for being an purely object-oriented programming language. (We'll get to what object-oriented means in a later lesson.)
 
-Java has a moderate learning curve – it can be challenging to learn at first and some of its limitations can be frustrating at first. However, once you have become accustomed to the programming conventions in Java, it allows you to be highly productive and create complex programs.
+Java has a moderate learning curve – it can be challenging to learn at first and some of its limitations can be frustrating at first. However, once we have become accustomed to the programming conventions in Java, it allows us to be highly productive and create complex programs.
 
 Java has consistently been in the top three most popular programming langauges over the past two decades. Other languages that have been consistemtnly popular include Python, C, and Javascript.
 
@@ -17,7 +17,7 @@ Here are some things worth noting now.
 
 #### 1. Comments
 
-Comments are used to write words in your program to help explain what is going on. There are two types of comments: single-line and multi-line. 
+Comments are used to write words in our program to help explain what is going on. There are two types of comments: single-line and multi-line. 
 
 * **Multi-line comments** take up multiple lines of code. They start with `/*` or `/**` and end with `*/` (the `*` at the beginning of each line in between is optional). 
 
@@ -45,7 +45,7 @@ A class should be one of the following: `public`, `private`, or `protected`. If 
 
 You would have learned about functions in your Grade 11 computer science course. A method is a function that is contained in a class. Since every function in Java is contained in a class, every function in Java is a method. The words *method* and *function* can be used interchangeably in Java.
 
-When defining a method, you would write the following, in order:
+When defining a method, we would write the following, in order:
 
 1. `public`, `private`, or `protected` (or leave it blank for package-private)
 2. `static` (or leave it blank if it's non-static)
@@ -64,9 +64,9 @@ Rules for method names:
 * If there is more than one word, all other words begins with a capital (e.g. `getItem()`).
 * There are only letters and numbers. There are no underscores or other special symbols.
 
-When you are talking about a method, you can append `()` at the end of its name to make it clear that it is a method, not a variable.
+When we are talking about a method, we can append `()` at the end of its name to make it clear that it is a method, not a variable.
 
-At least one class in a Java program should contain a `main()` method. The content of a `main()` method is run when you run your program. In Java, the `main()` method must be `public`, `static`, and return a `void` value. The `main()` method has the parameter `String[] args` . (We'll get to what this means in a later lesson.)
+At least one class in a Java program should contain a `main()` method. The content of a `main()` method is run when we run our program. In Java, the `main()` method must be `public`, `static`, and return a `void` value. The `main()` method has the parameter `String[] args` . (We'll get to what this means in a later lesson.)
 
 ### Writing Java Code Using Replit
 
@@ -76,5 +76,5 @@ Here are a few things worth noting about writing Java code in Replit that are di
 
 * The top-level class is called `Main` by default and cannot be renamed. (We'll get to what top-level means in later lesson.)
 * The `main()` method must be inside the `Main` class. 
-* Files are not auto-filled when you first create them. You may have to do a lot of copy-pasting from other files when getting started.
+* Files are not auto-filled when we first create them. We might have to do a lot of copy-pasting from other files when getting started.
 * [Javadocs](https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/) are only partially supported. These include tags in multi-line comments that begin with `/**`. Typically, we can use Javadocs to auto-generate a summary of documentation for each class and method, but we cannot do that with Replit unfortunately.
