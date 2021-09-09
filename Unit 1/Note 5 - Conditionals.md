@@ -6,7 +6,7 @@ A `boolean` is one of the eight primitive data types in Java. Like all primitive
 
 A **Boolean expression** is an expression that evaluates to either `true` or `false`. We can create Boolean expressions using **comparison operators**, **equality operators**, and **Boolean operators**.
 
-Here are all the operators you can use in Java to create Boolean expressions.
+Here are all the operators we can use in Java to create Boolean expressions.
 
 | Operator Name | Operator Symbol | Category | Example | Explanation |
 | --- | --- | --- | --- | --- |
@@ -18,20 +18,18 @@ Here are all the operators you can use in Java to create Boolean expressions.
 | Not Equals | `!=` | Equality Operator | `3 != 5 // true`	| 3 is not equal to 5, so the expression is `true`.<br/></br>The exclamation point is commonly used to negate operators (i.e. make them the negative of what they originally are). |
 | NOT | `!` | Boolean Operator | `!(3 < 5) // false`	| The statement in the parentheses is `true`, so the expression is the negation of that, which is `false`. |
 | AND | `&&` | Boolean Operator | `(3 < 5) && (3 > 5) // false`	| At least one of those two statements is `false`, so the expression is `false`.<br/></br>There is a similar operator, `&`, called a bitwise operator, which does something completely different. Look it up if you're interested. |
-| OR | `\|\|` | Boolean Operator | `(3 < 5) \|\| (3 > 5) // true`	| At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br/></br>The pipe character is typically found above or beside the ENTER key on your keyboard. |
+| OR | `\|\|` | Boolean Operator | `(3 < 5) \|\| (3 > 5) // true`	| At least one of those two statements is `true`, so the expression is `true`.<br></br>There is a similar operator, `|`, called a bitwise operator, which does something completely different. Look it up if you're interested.<br/></br>The pipe character is typically found above or beside the ENTER key. |
 | XOR | `^` | Boolean Operator | `(3 < 5) ^ (3 > 5) // true`	| Exactly one of those two statements is `true`, so the expression is `true`.<br/></br>XOR is called "exclusive OR". It's like OR, except it returns `false` when more than one statement is `true`.<br/></br>The `^` symbol is called a "caret", not to be confused with "carrot" or "carat". |
 
 The convention to write the names of Boolean Operators in all capital letters. That's why NOT, AND, OR, and XOR are in all capital letters.
 
 The comparison operators can also be used with `char` values.  It compares them based on character order (which is sort of like alphabetical order, except it compares the ASCII values). The comparison operators cannot be used for `String` values.
 
-
 ### Conditional Statements
 
 Boolean expressions are often used to check conditions. For example, we may want different blocks of code to run depending on the values of specific variables at specific times.
 
 There are two kinds of conditional statements in Java: the *if* statement and the *switch* statement. 
-
 
 ### If Statements
 
@@ -56,7 +54,7 @@ The keywords `if`, `else if`, and `else` work like this:
 * Any `else if` blocks run only if all the previous conditions in the conditional structure are `false` (the "else" in `else if`) and the new condition is true (the "if" in else if).
 * The `else` block runs only if all the previous conditions in the conditional structure are `false`.
 
-In any conditional structure, you may have as many or as few `else if` blocks as you wish. You may have no more than one `else` block. 
+In any conditional structure, we may have as many or as few `else if` blocks as we wish. We may have no more than one `else` block. 
 
 In general, if the conditions are mutually exclusive (i.e. they can't hold true at the same time), we should use `if` followed by `else if` rather than `if` followed by another `if`.
 
@@ -94,7 +92,7 @@ else if ((provinceName.equals("NB")) || (provinceName.equals("PE")) || (province
 else if ((provinceName.equals("YT")) || (provinceName.equals("NT")) || (provinceName.equals("NU"))) regionName = "Northern Canada";
 else regionName = "Not a region in Canada";
 ```
-Notice how `provinceName.equals("BC")` is used instead of `provinceName == "BC"`. This is because the `==` operator for `String` values in Java checks whether they have the same address (i.e. they are the same object). To check whether the content of `provinceName` is `"BC"`, you need to use the `equals()` method.
+Notice how `provinceName.equals("BC")` is used instead of `provinceName == "BC"`. This is because the `==` operator for `String` values in Java checks whether they have the same address (i.e. they are the same object). To check whether the content of `provinceName` is `"BC"`, we need to use the `equals()` method.
 
 **Switch Statement**
 ```java
