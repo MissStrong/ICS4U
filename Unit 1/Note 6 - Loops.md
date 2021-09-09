@@ -4,8 +4,29 @@ A **loop** is a structure that repeatedly executes a specified block of code. Th
 
 If you wanted to repeat specific lines of code a specific number of times, or until a specific condition is met, you can use a loop to accomplish that.
 
-There are three loop structures in Java: the *while loop*, the *do while loop* and the *for loop*.
+There are three loop structures in Java: the *for loop*, the *while loop*, and the *do while loop*.
 
+### For Loops
+
+You would generally use a *for loop* when you know how many times you want the block of code to* run.
+
+Here is the general structure of a *for loop.
+
+```java
+for (<initialization>; <condition>; <incrementation>) {
+    <statement>;
+    ⋮
+    <statement>;
+}
+```
+
+A *for loop* does the following:
+
+1. Performs the initialization. 
+2. Checks to see whether the condition is met. If it isn't met, the block doesn't run.
+3. If the condition is met, it runs the block of code (the content within the curly braces).
+4. Performs the incrementation.
+5. Repeats steps 2-4 repeatedly until the condition is no longer met in step 2.
 
 ### While Loops
 
@@ -42,30 +63,6 @@ do {
 } while (<condition>);
 ```
 
-
-### For Loops
-
-You would generally use a *for loop* when you know how many times you want the block of code to* run.
-
-Here is the general structure of a *for loop.
-
-```java
-for (<initialization>; <condition>; <incrementation>) {
-    <statement>;
-    ⋮
-    <statement>;
-}
-```
-
-A *for loop* does the following:
-
-1. Performs the initialization. 
-2. Checks to see whether the condition is met. If it isn't met, the block doesn't run.
-3. If the condition is met, it runs the block of code (the content within the curly braces).
-4. Performs the incrementation.
-5. Repeats steps 2-4 repeatedly until the condition is no longer met in step 2.
-
-
 ### Break and Continue
 
 At any point in a loop, you can use the keyword `break` to get out of the loop. The keyword `break` is somewhat controversial in computer science since some programmers consider it bad form. I am not one of them. You may use it in this course.
@@ -91,9 +88,6 @@ for (int i = 0; i <= 9; i++) {
 In this example, the for loop that iterates on `i` would be referred to as the **outer loop**, and the for loop that iterates on `j` would be referred to as the **inner loop**.
 
 If you had a loop inside of a loop, which is already inside another loop, there would be two levels of inner loops.
-
- 
-
 
 ### Infinite Loops
 
