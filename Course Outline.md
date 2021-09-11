@@ -5,11 +5,11 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 ### Unit 1
 
 * Ethical Computer Use
+* Post-Secondary Opportunities
 * Print Statements
 * Data Types
 * Methods
 * Conditionals
-
 * Loops
 
 ### Unit 2
@@ -18,7 +18,6 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * String Manipulation and Regular Expressions
 * I/O with Text Files
 * Emerging Technologies
-
 * One-Dimensional Arrays
 * Two-Dimensional Arrays
 * Environmental Sustainability
@@ -41,10 +40,7 @@ Disclaimer: The following is a tentative schedule. Upcoming activities might be 
 * Queues
 * Enumerations
 * Computer Science Research
-
 * Paired Programming
 * Graphical User Interfaces
 * Object-Oriented Programming
-* Post-Secondary Opportunities
-
 * Culminating Task
