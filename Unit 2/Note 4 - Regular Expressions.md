@@ -40,10 +40,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 ```
 
-Then, we can create a `Pattern` using regex and a `Matcher` string.
+Then, we can create a `Pattern` using regex and a `Matcher` for the string we want to check the pattern against.
 
 ```java
-Pattern phoneNumberPattern = Pattern.compile("\\([0-9]{3}\\) [0-9]{3}[\\-][0-9]{4}");
+Pattern phoneNumberPattern = Pattern.compile("\\([0-9]{3}\\) [0-9]{3}\\-[0-9]{4}");
+System.out.println(phoneNumberPattern); // prints the regex for a phone number: \([0-9]{3}\) [0-9]{3}\-[0-9]{4}
 Matcher bciPhoneNumber = phoneNumberPattern.matcher("(519) 885-4620");
 if (bciPhoneNumber.find()) {
   System.out.println("The pattern matches.");
