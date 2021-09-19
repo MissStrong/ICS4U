@@ -13,7 +13,6 @@ How fast can you find the word "panda" in this **unsorted** grid? Don't use CTRL
 | frog | llama | goat | eagle | panda | raccoon | shark |
 | squirrel | bat | sheep | groundhog | chipmunk | aardvark | camel |
 
-
 Now, try finding the word "llama" in this **sorted** grid. Again, don't use CTRL-F or ⌘-F!
 
 | aardvark | chinchilla | duck | goat | leopard | penguin | snake |
@@ -27,18 +26,15 @@ Now, try finding the word "llama" in this **sorted** grid. Again, don't use CTRL
 
 How were your strategies different for an unsorted grid versus a sorted (i.e. alphabetical) grid?
 
-
 When humans look through an unsorted grid to look for a specific item, they tend to look in a logical order (i.e. starting in one corner and going across or up/down). Computers behave similarly when searching through an unsorted array in order to find a specific item. It starts from one end and continues in order until it finds the item.
 
 When humans look through a sorted grid to look for a specific item, they tend to look for clusters of similar items (e.g. words that begin with the same letter), then go from there. Computers cannot do this, since they can only check one item at a time.
-
 
 ### How Computers Search
 
 A computer would use an algorithm called binary searching to search for an item in a sorted array. It would first check the middle item and if it isn't the item it's looking for, it would make a binary decision: keep checking in the first half or keep checking in the second half. It would then check the middle item of the "half" it chose, and continue this process until it finds the item. This is the most efficient way that a computer can search for an item in a sorted array.
 
 Try a binary search on this grid with white text. How many words did you check until you found "purple"? If the algorithm is performed correctly, it should take no more than 6 guesses to find any given word (or determine that it isn't there) in array of 64 items.
-
 
 | amaranth | blue | cerulean | gold | lilac | orchid | raspberry | silver |
 | --- | --- | --- | --- | --- | --- | --- |  --- |
@@ -50,8 +46,6 @@ Try a binary search on this grid with white text. How many words did you check u
 | beige | carmine | emerald | lavender | olive | puce | sapphire | white |
 | black | cerise | erin | lemon | orange | purple | scarlet | yellow |
 
- 
-
 ### Binary Search Algorithm
 
 There are two common approaches to program a binary search algorithm.
@@ -62,7 +56,6 @@ There are two common approaches to program a binary search algorithm.
 * In a loop, keep checking the middle item (half-way between the lower and upper bound).
   * If the middle item isn't what you're looking for, update the lower bound or upper bound depending on whether the item should appear before or after that middle item.
   * If the middle item is what you're looking for, you've found it!
-
 
 **Approach 2: Recursion**
 
