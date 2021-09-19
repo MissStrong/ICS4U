@@ -1,11 +1,10 @@
 ## Note – String Manipulation and Regular Expressions
 
-
 ### Strings and Loops
 
-Suppose you want to check whether a string contains a particular character.
+Suppose we want to check whether a string contains a particular character.
 
-You can iterate through it character by character using something like this:
+We can iterate through it character by character using something like this:
 
 ```java
 String word;
@@ -16,9 +15,9 @@ for (int i = 0; i < word.length(); i++) {
 }
 ```
 
-N.B.: You can't use `word[i]` to access the character at index `i` in Java, although other programming languages allow this. 
+N.B.: We can't use `word[i]` to access the character at index `i` in Java, although other programming languages allow this. 
 
-For example, if you wanted to check whether the sentence "The quick brown fox jumps over the lazy dog" contains the letter "v", you can do the following:
+For example, if we wanted to check whether the sentence "The quick brown fox jumps over the lazy dog" contains the letter "v", we can do the following:
 
 ```java
 String sentence = "The quick brown fox jumps over the lazy dog";
@@ -58,12 +57,12 @@ It is sometimes useful to convert characters to integers (their ASCII value) to 
 
 To cast a character to an integer, place `(int)` in front of it. 
 
-It may be useful to remember the following ASCII value ranges. You can see the find the full chart by searching "ASCII chart" in an image search engine.
+It may be useful to remember the following ASCII value ranges. We can see the find the full chart by searching "ASCII chart" in an image search engine.
 
 | Range | Characters |
 | --- | --- |
 | 0 | `null` |
-| 1-31 | Stuff you probably won't use |
+| 1-31 | Stuff we probably won't use |
 | 32 | space |
 | 33-47 | punctuation marks and symbols |
 | 48-57 | numerals |
@@ -74,8 +73,7 @@ It may be useful to remember the following ASCII value ranges. You can see the f
 | 123-126	| more symbols |
 | 127	| delete (probably won't use) |
 
-
-For characters in other languages (e.g. letters with accents or characters in different alphabets and writing systems), other symbols (eg. wingdings and emojis), you can use their [unicode](https://unicode.org/) value.
+For characters in other languages (e.g. letters with accents or characters in different alphabets and writing systems) and other symbols (eg. wingdings and emojis), we can use their [unicode](https://unicode.org/) value.
 
 ### String Formatting
 
