@@ -9,9 +9,9 @@
 
 In Java, there are several classes that can be used to read files. `Scanner` is one of the most convenient classes for parsing text files.
 
-`Scanner` can look at a text file and tell you its content one "word" (i.e. a **token**) at a time or one line at a time. A token is a string of characters that is surrounded by whitespace characters on both ends.
+`Scanner` can look at a text file and tell us its content one "word" (i.e. a **token**) at a time or one line at a time. A token is a string of characters that is surrounded by whitespace characters on both ends.
 
-In the `Scanner` class, you can use the `hasNext()` and `next()` methods for reading one token at a time, and the `hasNextLine()` and `nextLine()` methods for reading one line at a time. 
+In the `Scanner` class, we can use the `hasNext()` and `next()` methods for reading one token at a time, and the `hasNextLine()` and `nextLine()` methods for reading one line at a time. 
 
 ```java
 /**
@@ -72,7 +72,6 @@ There are several classes to choose from when you are writing to files. The one 
 
 ```java
 /**
- *
  * @author MissStrong
  */
 
