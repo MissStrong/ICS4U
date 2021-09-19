@@ -14,7 +14,7 @@ The following grid can be represented using the 2D array `{{1, 2, 3}, {4, 5, 6},
 
 ### Initializing 2D Arrays
 
-To initialize the 2D array above, you can do the following.
+To initialize the 2D array above, we can do the following.
 
 ```java
 int[] row0 = {1, 2, 3};
@@ -28,9 +28,9 @@ The notation `[][]` is used for an array of arrays.
 
 ### Printing 2D Arrays
 
-You can simulate printing a 2D array by printing its rows individually.
+We can simulate printing a 2D array by printing its rows individually.
 
-To print the 2D array above, you can do the following.
+To print the 2D array above, we can do the following.
 
 ```java
 for (int[] row : grid) {
