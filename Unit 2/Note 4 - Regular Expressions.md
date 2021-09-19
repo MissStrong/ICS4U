@@ -40,7 +40,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 ```
 
-Then, we can create a `Pattern` using regex and a `Matcher` for the string we want to check the pattern against.
+Then, we can create a `Pattern` using regex (remember to escape the backslashes) and a `Matcher` for the string we want to check the pattern against.
 
 ```java
 Pattern phoneNumberPattern = Pattern.compile("\\([0-9]{3}\\) [0-9]{3}\\-[0-9]{4}");
