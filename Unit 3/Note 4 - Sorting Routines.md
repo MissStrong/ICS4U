@@ -20,7 +20,6 @@ The following sorting algorithms will be discussed in more detail this lesson. Y
 
 They will be described using **pseudocode**, which is a combination of code and plain English. There are usually several variations for each sorting algorithm -- this lesson only has one variation for each sorting algorithm.
 
-
 **Gnome Sort**
 
 ```
@@ -39,9 +38,6 @@ Here is a flowchart for the Gnome Sort algorithm.
 
 ![Gnome Sort](../Images/Gnome_Sort_Flowchart.png)
 
-
-
-
 **Bubble Sort**
 
 ```
@@ -59,7 +55,6 @@ Here is a flowchart for the Bubble Sort algorithm:
 
 ![Bubble Sort](../Images/Bubble_Sort_Flowchart.png)
 
-
 **Shaker Sort**
 
 ```
@@ -76,7 +71,6 @@ Do the following until the array is sorted:
 ```
 
 Shaker Sort is Bubble Sort with a twist. Once the bubble reaches the end of the array, it heads backwards until it reaches the start of the array. It keeps heading forwards and backwards until the array is sorted.
-
 
 **Insertion Sort**
 
@@ -97,7 +91,6 @@ Here is a flowchart for the Insertion Sort algorithm:
 
 ![Insertion Sort](../Images/Insertion_Sort_Flowchart.png)
 
-
 **Selection Sort**
 
 ```
@@ -113,7 +106,6 @@ The idea is that after `n` iterations, the element that belongs in the nth spot 
 Here is a flowchart for the Selection Sort algorithm:
 
 ![Selection Sort](../Images/Selection_Sort_Flowchart.png)
-
 
 **Shell Sort**
 
@@ -165,12 +157,9 @@ Do the following until the array is sorted:
 
 This is the true "Stupid Sort". Bogo Sort is intended to be a joke. It is impractical and is never guaranteed to terminate for long arrays. Never use it. Please.
 
-
 ### Better Sorting Algorithms
 
 So far, all of the sorting algorithms are classified as inefficient. They are relatively simple to understand, but they do more comparisons and/or swaps than necessary. Merge Sort and Quick Sort are among the most efficient sorting algorithms, but they are more difficult to code.
-
-
 
 **Merge Sort**
 
@@ -193,9 +182,7 @@ Here is an example of what merging two groups of two can look like.
 
 ![](../Images/Merge_Sort_Example.png)
 
-
 In older versions of Java (before Java SE 7), the `sort()` method in the `Arrays` class uses Merge Sort when the array is composed of a primitive data type.
-
 
 **Quick Sort**
 
@@ -229,7 +216,6 @@ At the end of the iteration, 3 is in the correct location. The process can be re
 
 In older versions of Java (before Java SE 7), the `sort()` method in the `Arrays` class uses Quick Sort when the array is composed of composite data type. The newest versions of Java uses Tim Sort (named after someone whose first name is Tim), which is a hybrid of Quick Sort and Insertion Sort.
 
-
 ### Stability of Sorting Algorithms
 
 The **stability** of a sorting algorithm refers to whether it preserves the order of duplicate elements. A sorting algorithm is **stable** if it preserves the order of duplicate elements, and **unstable** otherwise.
@@ -239,4 +225,3 @@ This may seem unimportant, but when an array consists of objects, it is often de
 | Stable Sorting Algorithms | Unstable Sorting Algorithms |
 | --- | --- |
 | <ul><li>Gnome Sort</li><li>Bubble Sort</li><li>Shaker Sort</li><li>Insertion Sort</li><li>Merge Sort</li></ul> | <ul><li>Selection Sort</li><li>Shell Sort</li><li>Comb Sort</li><li>Bogo Sort</li><li>Quick Sort</li></ul> |
-
