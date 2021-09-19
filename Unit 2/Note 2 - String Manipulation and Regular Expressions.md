@@ -41,17 +41,16 @@ N.B.: Always assume that strings are case-sensitive when using any programming l
 | `contains()` | `"monkey".contains("onk"); // true` | Checks whether `"monkey"` contains `"onk"`. |
 
 
-There are also several methods in the `String` class that are useful for modifying strings.
+There are also several methods in the `String` class that are useful for creating strings based on other strings.
 
 | Method | Example | Description |
 | --- | --- | --- |
-| `trim()` |  `"  monkey    ".trim(); // "monkey"` | Removes all whitespace at the beginning and end of the string. |
-| `substring()` | `"monkey".substring(2); // "nkey"`<br></br>`"monkey".substring(1, 3); // "on"` | Removes the first two characters.<br></br>Keeps only the characters between index 1 (inclusive) and 3 (exclusive). |
-| `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Changes all lower case letters to be upper case letter. |
-| `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Changes all upper case letters to be lower case letter. |
-| `replace()`      | `"abcabc".replace("a", "ef"); //"efbcefbc"`                  | Replaces all occurrences of `"a"` with `"ef"`.                |
-| `replaceFirst()` | `"abcabc".replaceFirst("a", "ef"); //"efbcabc"`              | Replaces the first occurrence of `"a"` with `"ef"`.           |
-
+| `trim()` |  `"  monkey    ".trim(); // "monkey"` | Creates a new string with all whitespace at the beginning and end of the string removed. |
+| `substring()` | `"monkey".substring(2); // "nkey"`<br></br>`"monkey".substring(1, 3); // "on"` | Creates a new string with the first two characters removed.<br></br>Creates a new string using the characters between index 1 (inclusive) and 3 (exclusive). |
+| `toUpperCase()` | `"Monkey".toUpperCase(); // "MONKEY"` | Creates a new string with all lower case letters changed into upper case letters. |
+| `toLowerCase()` | `"Monkey".toLowerCase(); // "monkey"` | Creates a new string with all upper case letters changed into lower case letters. |
+| `replace()`      | `"abcabc".replace("a", "ef"); //"efbcefbc"`                  | Creates a new string with all occurrences of `"a"` replaced with `"ef"`.                |
+| `replaceFirst()` | `"abcabc".replaceFirst("a", "ef"); //"efbcabc"`              |  Creates a new string with the first occurrence of `"a"` replaced with `"ef"`.           |
 
 It is sometimes useful to convert characters to integers (their ASCII value) to check whether they are a certain type of character (e.g. lower case letter, punctuation mark, whitespace, etc.).
 
@@ -99,7 +98,7 @@ The `%s` is a placeholder for `String`. There are placeholders for other data ty
 | `float` | `%e` for scientific notation<br></br>`%f` |
 | `String` | `%s` |
 
-You can use multiple placeholders in the same string. The arguments are placed in order that their placeholders appear.
+We can use multiple placeholders in the same string. The arguments are placed in order that their placeholders appear.
 
 ```java
 String name;
@@ -112,9 +111,9 @@ String.format("My name is %s. I am %d years old.", name, age);
 
 **Regular expressions**, often shortened to **regex** (**reg**ular **ex**pressions) are used to describe patterns in a file or webpage.
 
-When you are searching for a pattern, such as "lines that start with the letter Q or X", you can use a regular expression to accomplish that. When you are using CTRL-F (or ⌘-F for Mac users), there is often an option to use regular expressions.
+When we are searching for a pattern, such as "lines that start with the letter Q or X", we can use a regular expression to accomplish that. When you are using CTRL-F (or ⌘-F for Mac users), there is often an option to use regular expressions.
 
-For example, you can use regular expressions to find patterns in Google Docs. This is what the Find and Replace interface looks like in Google Docs.
+For example, we can use regular expressions to find patterns in Google Docs. This is what the Find and Replace interface looks like in Google Docs.
 
 ![](../Images/Find_And_Replace.png)
 
