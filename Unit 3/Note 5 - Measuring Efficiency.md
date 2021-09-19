@@ -18,7 +18,6 @@ As you can see, some of these comparison-based sorting algorithms are more effic
 
 The efficiency of an algorithm is most often measured based on its worse case or its average case.
 
-
 ### Asymptotic Notation
 
 **Big O Notation** is used to measure how efficient an algorithm is when it is given the worst case(s) possible. Efficiency can refer to how many tasks an algorithm performs, or how much space/memory an algorithm requires. For now, you'll just use it to measure how many swaps a sorting algorithm performs.
@@ -29,7 +28,6 @@ To write an algorithm's efficiency in Big O notation:
 3. Look the term that has the most influence on the shape of the graph (if it's a polynomial, it'll be the term with the highest degree).
 4. Remove the coefficient on that term. If the term is a constant, change it to 1. If the term contains a logarithm, remove the base.
 5. Put that term in parentheses and put a capital "O" in front of the left parenthesis.
-
 
 | | Number of Swaps in Worst Case | Most Influential Term | Coefficient Removed | Complexity in Big O Notation |
 | --- | --- | --- | --- | --- |
@@ -58,7 +56,6 @@ The tables above use the number of swaps as the measure of how efficient a sorti
 | Merge Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(nlogn)* |
 | Quick Sort | *Ω(nlogn)* | *Θ(nlogn)* | *O(n<sup>2</sup>)* |
 
-
 There are five letters used in asymptotic notation:
 * capital O (big O notation)
 * capital omega (big Ω notation)
@@ -67,8 +64,6 @@ There are five letters used in asymptotic notation:
 * lowercase omega (small ω notation)
 
 Their formal definitions are quite mathy, so you don't need to worry about them for this course. All you should know is that big O notation is used for the worst case, big omega notation is used for the best case, and big theta notation is used for the average case.
-
-
 
 ### Comparing Efficiencies
 
@@ -80,11 +75,9 @@ When comparing polynomial-time efficiencies, the lower the degree, the more effi
 
 For example, *O(n)* < *O(n<sup>4/3</sup>)* < *O(n<sup>3</sup>)* < *O(n<sup>4</sup>)* < *O(n<sup>7</sup>)*
 
-
 ### Logarithms 
 
 Most of you are already familiar with logarithms from your math courses, but if not, here is a brief explanation of them.
-
 
 The *log* symbol in some of the cases in the table refers to the logarithmic function. 
 
@@ -92,12 +85,9 @@ Logarithms are used to solve exponential equations. For example, *2<sup>x</sup> 
 
 A logarithm is an inverse of an exponent, so their graphs are mirrors of each other over the line *y=x*.
 
-
 ![](../Images/Exponential_Graph.png)
 
-
 The blue curve is *f(x)=2<sup>x</sup>* and the red curve is *f<sup>-1</sup>(x)=log<sub>2</sub>x*.
-
 
 ### Measuring Searching Algorithms 
 
