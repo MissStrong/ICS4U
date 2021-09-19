@@ -22,14 +22,13 @@ Here is a summary of what lists and arrays are called in various languages.
 | Processing | array list  | array                         |
 | Java       | array list  | array                         |
 
-Java has an `Array` structure and an` ArrayList` structure. This lesson will be on arrays. You'll learn about array lists in a future lesson.
+Java has an `Array` structure and an` ArrayList` structure. This lesson will be on arrays. We'll learn about array lists in a future lesson.
 
 ### Declaring and Initializing Arrays
 
-In order to use array methods in a Java program, you need to import the `java.util.Arrays` package.
+In order to use array methods in a Java program, we need to import the `java.util.Arrays` package.
 
 At the top of the file, put `import java.util.Arrays;` or `import java.util.*;`. The `*` is called a wildcard, and here it is used to import all the classes from `java.util`, which includes `java.util.Arrays`.
-
 
 There are two common ways to initialize arrays.
 
