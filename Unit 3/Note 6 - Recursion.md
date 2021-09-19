@@ -12,7 +12,6 @@ In computer science, a **recursive function** is a function that calls itself wi
 > 
 > [See image](../Images/Recursion.png).
 
-
 ### Fibonacci Sequence
 
 One of the most classic examples of recursion is the Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 34...
@@ -39,7 +38,6 @@ public static int fibonacci(int n) {
 
 How does this method work? Let's trace `fibonacci(4)` to see what happens.
 
-
 `fibonacci(4)`    
 => `fibonacci(3) + fibonacci(2)`    
 => `fibonacci(2) + fibonacci(1) + fibonacci(2)`    
@@ -55,9 +53,6 @@ Let's try again with `fibonacci(6)`.
 => `fibonacci(2) + fibonacci(1) + 1 + 1 + 1 + 1 + 1 + 1`    
 => `1 + 1 + 1 + 1 + 1 + 1 + 1 + 1`    
 => `8`
-
-
-
 
 ### Factorials!
 
@@ -99,7 +94,6 @@ public static int gcf(int n, int m) {
 }
 ```
 
-
 ### Fractals
 
 A fractal is a geometrical pattern that repeats indefinitely and in which every smaller component is related to the whole. Some examples include the Sierpinski Triangle, Koch Snowflake, and the Mandelbrot Set.
@@ -113,7 +107,6 @@ A fractal is a geometrical pattern that repeats indefinitely and in which every 
 >
 > The Tower of Hanoi is a game that involves placing disks on pegs. This game is an example of recursion. You can play it [here](http://www.dynamicdrive.com/dynamicindex12/towerhanoi.htm).
 >
-
 
 ### Issues with Recursion
 
