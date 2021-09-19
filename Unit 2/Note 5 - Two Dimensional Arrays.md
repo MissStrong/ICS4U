@@ -25,7 +25,6 @@ int[][] grid = {row0, row1, row2};
 
 The notation `[][]` is used for an array of arrays.
 
-
 ### Printing 2D Arrays
 
 We can simulate printing a 2D array by printing its rows individually.
@@ -37,4 +36,3 @@ for (int[] row : grid) {
   System.out.println(Arrays.toString(row));
 }
 ```
-
