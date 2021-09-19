@@ -58,7 +58,7 @@ There are two common approaches to program a binary search algorithm.
 
 **Approach 1: Iteration**
 * Keep track of a lower bound and an upper bound for the index of the item in the array.
-* If the lower bound is equal to the upper bound, the item is either at that index, or not in the array.
+* If the lower bound is equal to the upper bound, the item is either at that index or it's not in the array.
 * In a loop, keep checking the middle item (half-way between the lower and upper bound).
   * If the middle item isn't what you're looking for, update the lower bound or upper bound depending on whether the item should appear before or after that middle item.
   * If the middle item is what you're looking for, you've found it!
