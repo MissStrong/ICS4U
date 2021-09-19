@@ -33,7 +33,7 @@ N.B.: The `^` and `$` metacharacters work best for text files. They are iffy in 
 
 We can use the `Pattern` and `Matcher` classes to implement regular expressions.
 
-First, we import both of them.
+First, we import them.
 
 ```java
 import java.util.regex.Matcher;
@@ -45,7 +45,9 @@ Then, we can create a `Pattern` using regex and a `Matcher` for the string we wa
 ```java
 Pattern phoneNumberPattern = Pattern.compile("\\([0-9]{3}\\) [0-9]{3}\\-[0-9]{4}");
 System.out.println(phoneNumberPattern); // prints the regex for a phone number: \([0-9]{3}\) [0-9]{3}\-[0-9]{4}
+
 Matcher bciPhoneNumber = phoneNumberPattern.matcher("(519) 885-4620");
+
 if (bciPhoneNumber.find()) {
   System.out.println("The pattern matches.");
 } else {
