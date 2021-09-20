@@ -19,10 +19,10 @@ Here is a summary of what lists and arrays are called in various languages.
 | C++        | list        | array                         |
 | C#         | list        | array                         |
 | Python     | list        | tuple (pronounced "too-pull") |
-| Processing | array list  | array                         |
+| Javascript | array list  | array                         |
 | Java       | array list  | array                         |
 
-Java has an `Array` structure and an` ArrayList` structure. This lesson will be on arrays. We'll learn about array lists in a future lesson.
+Java has an `Array` structure and an `ArrayList` structure. This lesson will be on arrays. We'll learn about array lists in a future lesson.
 
 ### Declaring and Initializing Arrays
 
@@ -135,3 +135,4 @@ for (boolean elem : array) {
     // do something with elem
 }
 ```
+
