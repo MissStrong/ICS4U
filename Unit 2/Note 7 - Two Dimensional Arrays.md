@@ -36,3 +36,21 @@ for (int[] row : grid) {
   System.out.println(Arrays.toString(row));
 }
 ```
+
+### Searching Through 2D Arrays
+
+We can search through a 2D array by doing a linear search in each of the rows.
+
+```java
+int secretNumber = 7;
+
+for (int[] row : grid) {
+  for (int n : row) {
+    if (n == secretNumber) {
+      System.out.println("Found it!");
+    }
+  }
+}
+```
+
+
