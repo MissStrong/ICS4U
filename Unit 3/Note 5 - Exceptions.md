@@ -18,12 +18,12 @@ When we create our own methods, we can throw an exception object using the keywo
 public class Main {
 
   /**
-    * Takes a word (a string with only alphabet characters) and returns
-    * the number of capital letters in it.
-    *
-    * @param word
-    * @throw IllegalArgumentException when the argument contains any non-alphabet characters
-    */
+   * Takes a word (a string with only alphabet characters) and returns
+   * the number of capital letters in it.
+   *
+   * @param word
+   * @throw IllegalArgumentException when the argument contains any non-alphabet characters
+   */
   public static int numberOfCapitalLetters(String word) throws IllegalArgumentException {
 
     int count = 0; // keeps track of the number of capital letters seen so far
@@ -47,8 +47,8 @@ public class Main {
     return count;
   }
   /**
-    * @param args the command line arguments
-    */
+   * @param args the command line arguments
+   */
   public static void main(String[] args) {
     try {
       System.out.println(numberOfCapitalLetters("hello")); // prints 0
