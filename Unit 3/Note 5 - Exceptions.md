@@ -8,9 +8,7 @@ We saw the `IOException` with file reading. `IOException` is a general class for
 
 A `FileNotException` is thrown by the `Scanner()` function when the argument is not a valid `File` object. That's why we can use `catch (IOException e)` to handle the situation when we enter a bad filename.
 
-When we create our own methods, we can throw an exception object using the keyword `throw`. 
-
-Here is an example.
+When we create our own methods, we can throw an exception object using the keyword `throw`. Here is an example.
 
 ```java
 /**
