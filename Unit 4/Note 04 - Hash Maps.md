@@ -2,7 +2,7 @@
 
 ### Dictionaries
 
-The **dictionary**, also called a **map**, **hash map**, **hash table**, **associative array**, is an abstract data type (ADT). It is collection of key-value pairs. A value can be quickly retrieved using its corresponding key. Keys are unique and are similar to the idea of an ID in a database. Values do not have to be unique.
+The **dictionary**, also called a **map**, **hash map**, **hash table**, **associative array**, is an abstract data type (ADT). It is collection of key-value pairs. A value can be quickly retrieved using its corresponding key. Keys are unique and are similar to the idea of IDs in a database. Values do not have to be unique.
 
 These are some the typical operations of a dictionary:
 
