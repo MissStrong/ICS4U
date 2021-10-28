@@ -26,7 +26,7 @@ Dictionaries have many applications. As the name "dictionary" implies, they can 
 | `size()`          | Returns the number of key-value pairs in the dictionary.     | `hashMapExample.size();`                                     | Returns `0`, since `hashMapExample` is empty.                |
 | `isEmpty()`       | Returns `true` is the dictionary is empty, and `false` otherwise. | `hashMapExample.isEmpty();`                                  | Returns `true`, since `hashMapExample` is empty.             |
 | `containsKey()`   | Returns `true` if the dictionary contains the key, and `false` otherwise. | `hashMapExample.containsKey("a");`                           | Returns `false`, since `hashMapExample` doesn't have `"a"` as a key. |
-| `containsValue()` | Returns `true` if the dictionary contains the value, and `false` otherwise. | `hashMapExample.containsValue(3)`                            | Returns `false`, since `hashMapExample`  doesn't have `3` as a value. |
+| `containsValue()` | Returns `true` if the dictionary contains the value, and `false` otherwise. | `hashMapExample.containsValue(3);`                            | Returns `false`, since `hashMapExample`  doesn't have `3` as a value. |
 
 N.B.: In some other programming languages, such as Python, the keys in dictionaries must be immutable data types, which excludes lists. This is not the case for Java; a key can be any composite data type. Instead of using primitive daya types, you can use their corresponding class name.
 
