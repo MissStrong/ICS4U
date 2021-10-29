@@ -4,9 +4,9 @@
 
 A **Graphical User Interface** (GUI, pronounced "gooey") is a way of interacting with a computer. Examples of GUIs include windows, icons, and menus. 
 
-We'll be using JSwing to create GUIs in repl.it.
+We'll be using JSwing to create GUIs in rRplit.
 
-### JSwing in Repl.it
+### JSwing in Replit
 
 To make a JSwing program, make sure you select **Java Swing** as the language instead of Java. This will provide an additional window for our graphics to appear.
 
