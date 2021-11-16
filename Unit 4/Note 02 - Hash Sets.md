@@ -22,9 +22,9 @@ These are some the typical operations of a set. You don't need to know the symbo
 Java has a class called `HashSet`, which can be used as a set. You need to import `java.util.HashSet`in order to use it. Here are some of the methods you can use. 
 
 
-| Method       | Explanation                                                  | Example                                                     | Explanation                                                  |
-| ------------ | ------------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| `HashSet()`  | Creates a new (empty) set.                                   | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashSetExample` that will contain `Double` values. |
+| Method | Explanation | Example | Explanation |
+| --- | --- | --- | --- |
+| `HashSet()`  | Creates a new set. You can pass nothing to make an empty set or an arraylist to initialize the items. | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashSetExample` that will contain `Double` values. |
 | `add()`      | Adds an element into the set.                                | `hashSetExample.add(92.1);`</br>`hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashSetExample`.     |
 | `contains()` | Returns `true` if the set contains the element, and `false` otherwise. | `hashSetExample.contains(71.9);`                            | Returns `false`.                                             |
 | `remove()`   | Removes the element from the set.                            | `hashSetExample.remove(92.1);`                              | Removes the element `92.1` from `hashSetExample`.            |
@@ -35,14 +35,10 @@ Java has a class called `HashSet`, which can be used as a set. You need to impor
 Here is an example of some of the things you can do with `HashSet`.
 
 ```java
-/* Playing aroundwith HashSet */
+/* Playing around with HashSet */
 HashSet<String> myHashSet = new HashSet();
 
-myHashSet.add("boat");
-myHashSet.add("car");
-myHashSet.add("train");
-myHashSet.add("bike");
-myHashSet.add("car");
+HashSet<String> myHashSet = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car));
 
 System.out.println("myHashSet: " + myHashSet);
 
