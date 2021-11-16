@@ -36,34 +36,34 @@ Here is an example of some of the things you can do with `HashSet`.
 
 ```java
 /* Playing around with HashSet */
-HashSet<String> myHashSet = new HashSet();
+HashSet<String> vehicles = new HashSet();
 
-HashSet<String> myHashSet = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car"));
+HashSet<String> vehicles = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car"));
 
-System.out.println("myHashSet: " + myHashSet);
+System.out.println("vehicles: " + vehicles);
 
-System.out.println("myHashSet.contains(\"bike\"): " + myHashSet.contains("bike"));
-System.out.println("myHashSet.contains(\"llama\"): " + myHashSet.contains("llama"));
+System.out.println("vehicles.contains(\"bike\"): " + vehicles.contains("bike"));
+System.out.println("vehicles.contains(\"llama\"): " + vehicles.contains("llama"));
 System.out.println();
 
-System.out.println("myHashSet.isEmpty(): " + myHashSet.isEmpty());
-System.out.println("myHashSet.size(): " +  myHashSet.size());
+System.out.println("vehicles.isEmpty(): " + vehicles.isEmpty());
+System.out.println("vehicles.size(): " +  vehicles.size());
 System.out.println();
 
-myHashSet.remove("car");
-System.out.println("myHashSet.remove(\"car\")");
-System.out.println("myHashSet.size(): " +  myHashSet.size());
-System.out.println("myHashSet: " + myHashSet);
+vehicles.remove("car");
+System.out.println("vehicles.remove(\"car\")");
+System.out.println("vehicles.size(): " +  vehicles.size());
+System.out.println("vehicles: " + vehicles);
 System.out.println();
 
-myHashSet.add("plane");
-System.out.println("myHashSet.add(\"plane\")");
-System.out.println("myHashSet.size(): " +  myHashSet.size());
-System.out.println("myHashSet: " + myHashSet);
+vehicles.add("plane");
+System.out.println("vehicles.add(\"plane\")");
+System.out.println("vehicles.size(): " +  vehicles.size());
+System.out.println("vehicles: " + vehicles);
 System.out.println();
 
-myHashSet.clear();
-System.out.println("myHashSet.clear()");
-System.out.println("myHashSet: " + myHashSet);
+vehicles.clear();
+System.out.println("vehicles.clear()");
+System.out.println("vehicles: " + vehicles);
 ```
 
