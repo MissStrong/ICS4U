@@ -36,7 +36,8 @@ Here is an example of some of the things you can do with `HashSet`.
 
 ```java
 /* Playing around with HashSet */
-HashSet<String> vehicles = new HashSet();
+import java.util.HashSet;
+import java.util.Arrays;
 
 HashSet<String> vehicles = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car"));
 
