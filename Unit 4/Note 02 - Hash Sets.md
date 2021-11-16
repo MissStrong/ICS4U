@@ -38,7 +38,7 @@ Here is an example of some of the things you can do with `HashSet`.
 /* Playing around with HashSet */
 HashSet<String> myHashSet = new HashSet();
 
-HashSet<String> myHashSet = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car));
+HashSet<String> myHashSet = new HashSet(Arrays.asList("boat", "car", "train", "bike", "car"));
 
 System.out.println("myHashSet: " + myHashSet);
 
@@ -52,6 +52,12 @@ System.out.println();
 
 myHashSet.remove("car");
 System.out.println("myHashSet.remove(\"car\")");
+System.out.println("myHashSet.size(): " +  myHashSet.size());
+System.out.println("myHashSet: " + myHashSet);
+System.out.println();
+
+myHashSet.add("plane");
+System.out.println("myHashSet.add(\"plane\")");
 System.out.println("myHashSet.size(): " +  myHashSet.size());
 System.out.println("myHashSet: " + myHashSet);
 System.out.println();
