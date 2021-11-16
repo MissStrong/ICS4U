@@ -24,7 +24,7 @@ Java has a class called `HashSet`, which can be used as a set. You need to impor
 
 | Method | Explanation | Example | Explanation |
 | --- | --- | --- | --- |
-| `HashSet()`  | Creates a new set. You can pass nothing to make an empty set or an arraylist to initialize the items. | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashSetExample` that will contain `Double` values. |
+| `HashSet()`  | Creates a new set. You can pass nothing to make an empty set or pass an arraylist to initialize the items. | `HashSet<Double> hashSetExample = new HashSet();`           | Creates a new set called `hashSetExample` that will contain `Double` values. |
 | `add()`      | Adds an element into the set.                                | `hashSetExample.add(92.1);`</br>`hashSetExample.add(86.4);` | Adds the elements `92.1` and `86.4` to `hashSetExample`.     |
 | `contains()` | Returns `true` if the set contains the element, and `false` otherwise. | `hashSetExample.contains(71.9);`                            | Returns `false`.                                             |
 | `remove()`   | Removes the element from the set.                            | `hashSetExample.remove(92.1);`                              | Removes the element `92.1` from `hashSetExample`.            |
