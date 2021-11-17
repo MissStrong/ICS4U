@@ -44,13 +44,13 @@ import static java.awt.event.KeyEvent.*; // This is for the key listeners
 
 ### Screen Coordinates
 
-Before we go into GUI components, it'll be important to know that coordinates in programming are different than coordinates in math. 
+Before we go into GUI components, it'll be important to know that the coordinate systems used in programming are usually different than the coordinate system used in math. 
 
 In math, 2-dimensional coordinates can be graphed on a Cartesian Plane like this:
 
 ![](../Images/Cartesian_Plane.jpg)
 
-In computer science, we don't use the Cartesian plane for coordinates. Instead, the coordinate system we use looks like this:
+In computer science, we don't use the Cartesian plane for coordinates very often. Instead, the coordinate system we usually use looks like this:
 
 ![](../Images/Coordinate_Plane.jpg)
 
@@ -58,13 +58,13 @@ For example, if we are referring to a specific pixel in an image, we would use t
 
 The idea is that this is similar to how we would refer to cells in a table: The row number followed by column number, with Row 0 Column 0 representing the cell in the top-left corner. This is also similar to how we read in English: left to right, top to bottom.
 
-The coordinate (0, 0) is referred to as the **origin**. When programming, **the origin is always at the top-left corner**. 
+The coordinate (0, 0) is referred to as the **origin**. When programming using this coordinate system, **the origin is at the top-left corner**. 
 
 In math, the origin is at the center of the Cartesian plane. If we are only using the positive quadrant of the Cartesian plane, the origin is at the bottom-left corner.
 
 ### JSwing Components
 
-A frame can have many components on it. Here are some examples:
+A frame can have many components on it. Here are some examples of components:
 
 * Labels
 * Text Fields
@@ -75,7 +75,7 @@ A frame can have many components on it. Here are some examples:
 * Dropdown Menus
 * Sliders
 
-In this example, we'll be focusing on labels, text fields, text areas, scrollers, and buttons. These components have similar built-in methods.
+In this example, we'll be focusing on labels, text fields, text areas, scrollers, and buttons. These components have similar built-in methods as each other.
 
 The `setBounds()` method is used to make a component show up in a specific location on the frame. The first two parameters are the *x* and *y* coordinates of the top-left corner of the component and the last two parameters are the *width* (horizontal distance) and *height* (vertical distance) of the component.
 
@@ -83,7 +83,7 @@ The `setFont()` method is to set the font name, font style, and font size fo a c
 
 **Labels** are used to display a short line of text. They are designed to display only one line of text. Here is an example:
 
-```Java
+```java
 JLabel prompt = new JLabel("Enter amount: $");
 // Top-left corner is at (30, 20)
 // Size is 200x50
@@ -94,10 +94,9 @@ prompt.setFont(new Font(prompt.getFont().getName(), Font.PLAIN, 20));
 frame.add(prompt);
 ```
 
-
 **Text fields** are boxes designed for users to enter a single line of text into. Here is an example:
 
-```Java
+```java
 JTextField field = new JTextField("$0.00");
 // Top-left corner is at (200, 20)
 // Size is 400x50
@@ -110,7 +109,7 @@ frame.add(field);
 
 **Text areas** are large boxes designed for users to enter multiple lines of text into. Here is an example:
 
-```Java
+```java
 JTextArea area = new JTextArea("$0.00");
 // Top-left corner is at (200, 20)
 // Size is 400x50
@@ -154,7 +153,7 @@ frame.add(wordsGuessedScroller);
 
 **Buttons** are clickable boxes. 
 
-```Java
+```java
 JButton calculateButton = new JButton("Calculate");
 // Top-left corner is at (425, 500)
 // Size is 100x50
@@ -189,9 +188,9 @@ clickMeButton.addActionListener(new ActionListener() {
 
 ### JSwing Key Listeners
 
-Similar to an action listener, key listeners "listen" for a specific key to be pressed or released.
+Similar to action listeners, key listeners "listen" for a specific key to be pressed or released.
 
-For example, we can allow a user to press ENTER to as a keyboard shortcut for pressing a button. Key listeners are added to components, so the keyboard shortcut will only work when your cursor is in the component with the key listener.
+For example, we can allow a user to press ENTER to as a keyboard shortcut for pressing a button. Key listeners are added to components, so the keyboard shortcut will only work when your cursor is in the component that has the key listener.
 
 ```java
 textFieldName.addKeyListener(new KeyAdapter() { 
