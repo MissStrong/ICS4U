@@ -150,7 +150,6 @@ A computer would use an algorithm called binary searching to search for an item 
 
 Try a binary search on this grid. How many words did you check until you found "purple"? If the algorithm is performed correctly, it should take no more than 6 guesses to find any given word (or determine that it isn't there) in array of 64 items.
 
-
 <table>
   <tr>
     <td>amaranth</td>
