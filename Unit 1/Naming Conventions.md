@@ -1,0 +1,21 @@
+### Naming Notations
+
+In different programming languages, there are different rules for naming. Here are some of the common notations used.
+
+| Notation Name    | Example                  | Explanation                                                  |
+| ---------------- | ------------------------ | ------------------------------------------------------------ |
+| Lower Camel Case       | thisIsLowerCamelCase          | Every word begins with a capital, except for the first word.<br/><br/>All other letters are lowercase. |
+| Upper Camel Case      | ThisIsUpperCamelCase         | Every word begins with a capital.<br/><br/>All other letters are lowercase. |
+| Snake Case       | this_is_snake_case       | Every letter is lowercase.<br/><br/>Words are separated with underscores. |
+| Caterpillar Case | this-is-caterpillar-case | Every letter is lowercase.<br/><br/>Words are separated with hyphens. |
+
+### Naming Conventions for Java
+
+* Variable names should begin with a lowercase letter, a dollar sign, or an underscore. (Beginning a variable name with a dollar sign or underscore serves a specific purpose. Google it if you're curious.)
+* Variable names should include only letters and numbers (with the exception of a possible dollar sign or underscore at the very beginning).
+* Variable names and method names should use **camel case**.
+* Constant names should use **screaming snake case**. This is snake case with all letters capitalized. (Think of it as screaming or yelling.)
+* Classes should use **upper camel case**.
+
+In general, we should use descriptive names for variables to help create code that is self-explanatory.
+
