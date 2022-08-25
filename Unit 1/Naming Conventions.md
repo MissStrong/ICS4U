@@ -18,4 +18,3 @@ In different programming languages, there are different rules for naming. Here a
 * Classes should use **upper camel case**.
 
 In general, we should use descriptive names for variables to help create code that is self-explanatory.
-
