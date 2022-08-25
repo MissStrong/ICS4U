@@ -1,0 +1,56 @@
+## User Input
+
+In order to use the console to get user input, we need to import the `Scanner` class, which is located in the `java.util` package. 
+
+To import a class, we use the `import` keyword.
+
+```java
+import java.util.Scanner; // imports the Scanner class
+```
+
+Now we can make a `Scanner` object. The `Scanner()` method takes an argument indicating where to scan from. Since we're using the console, it will be `System.in`. Once we make the object, we can call its methods. To collect one line of user input at a time, we can use `.nextLine()` every time we want the user to enter onen line.
+
+```java
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in); // creates a scanner object
+    String input = scanner.nextLine();  // waits for the user to enter a line
+  }
+}
+```
+
+To make it clear what we want them to write, we can write a prompt for them.
+
+```java
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);  
+    System.out.print("What's your name? ");
+    String name = scanner.nextLine();
+  }
+}
+```
+
+Now the user input will be stored in a variable and we can respond to it.
+
+
+```java
+/**
+ * @author MissStrong
+ */
+ 
+import java.util.Scanner;  // imports the Scanner class
+
+public class Main {  /**
+   * Asks the user for their name and says "Hello" to them.
+   *
+   * @param args the command line arguments
+   * @return void
+   */
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);  // creates a Scanner object
+    System.out.print("What's your name? "); // prompts the user to enter their name
+
+    String name = scanner.nextLine();  // reads one line of user input
+    System.out.printf("Hello, %s!", name);  // says "Hello" to the user
+  }
+}
+```
