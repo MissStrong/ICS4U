@@ -25,3 +25,17 @@ For other mathematical operators, we would need to use built-in methods from the
 The [Java Application Program Interface (API)](https://docs.oracle.com/javase/7/docs/api/) is a collection of prewritten packages, classes, and interfaces. We can use it to find out what packages, classes, and interfaces exist and how we can use them when we are writing code in Java.
 
 For example, under **All Classes**, we can find **Math**. Under **Methods Summary**, we can see all its built-in methods. One of the methods is `pow(double a, double b)`. This tells that if we want to evaluate 2<sup>3</sup>, we would use `Math.pow(2, 3)`. (This is an example of coercion, since 2 and 3 are actually integers, not doubles.)
+
+Let's look at some more of the built-in methods in `Math`.
+* `Math.max()` compares two values and returns the largest value.
+* `Math.pow()` computes and returns the first value to the power of the second value.
+* `Math.random()` returns a pseudo-random number that is greater than zero and less than one.
+* `Math.round()` rounds a value up or down to the nearest integer and returns the value.
+* `Math.sqrt()` computes and returns the square root of a specific number.
+* `Math.abs()` finds the absolute value of a number.
+* `Math.ceil()` computes and returns the smallest integer greater than, or equal to, the number.
+* `Math.floor()` computes and returns the largest integer less than, or equal to, the number.
+* `Math.min()` compares two numbers and returns the smallest.
+
+Just like when we created a custom method and called it from a different file, the class name goes before the method name and is separated by a dot.
+
