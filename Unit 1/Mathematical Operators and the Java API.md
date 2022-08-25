@@ -38,4 +38,3 @@ Let's look at some more of the built-in methods in `Math`.
 * `Math.min()` compares two numbers and returns the smallest.
 
 Just like when we created a custom method and called it from a different file, the class name goes before the method name and is separated by a dot.
-
