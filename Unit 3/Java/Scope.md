@@ -1,4 +1,6 @@
-## TODO
+# [Link to video.](TODO)
+
+### TODO 
 
 The **scope** of a variable refers to where and when variable can be used.
 
