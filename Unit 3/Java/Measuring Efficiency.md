@@ -85,7 +85,7 @@ Logarithms are used to solve exponential equations. For example, *2<sup>x</sup> 
 
 A logarithm is an inverse of an exponent, so their graphs are mirrors of each other over the line *y=x*.
 
-![](../Images/Exponential_Graph.png)
+![](../../Images/Exponential_Graph.png)
 
 The blue curve is *f(x)=2<sup>x</sup>* and the red curve is *f<sup>-1</sup>(x)=log<sub>2</sub>x*.
 
