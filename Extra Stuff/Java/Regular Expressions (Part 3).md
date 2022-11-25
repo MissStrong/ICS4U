@@ -1,4 +1,4 @@
-# [Link to video.](https://www.youtube.com/watch?v=lmrjGtq1-1A&list=PLVD25niNi0Bklbh7Po--kFFLXFxxoIDUJ)
+# [Link to video.](https://www.youtube.com/watch?v=lmrjGtq1-1A)
 
 ### Regular Expressions
 
