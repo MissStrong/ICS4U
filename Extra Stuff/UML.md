@@ -33,4 +33,4 @@ When two classes have a loose connection to each other (e.g. one of them has a m
 
 Here is an example of a UML diagram for a Quatris program, written in C++. Quatris is a variation of Tetris. 
     
-![](../Images/Quatris_UML.png)
+![](../../Images/Quatris_UML.png)
