@@ -27,7 +27,7 @@ Aggregation is denoted by a line that has a white/blank diamond on one end (the 
 
 Composition is denoted similarly to aggregation, except the diamond is entirely black.
 
-Inheritance is denoted using a line with one arrow on one end (the superclass). The line can be accompanied with the word "extends" or "implements".
+Inheritance is denoted using a line with one arrow on one end (the superclass). For Java progams, the line can be accompanied with the word "extends" or "implements".
 
 When two classes have a loose connection to each other (e.g. one of them has a method that has an object of the other class as a parameter), you can use a dotted line to connect them, with arrows on the appropriate end(s).
 
