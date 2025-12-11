@@ -1,4 +1,4 @@
-# [Link to Video](https://www.youtube.com/watch?v=tJqeWEXRt4g&list=PLVD25niNi0BlJk16vP7-qI-uiuEv0aaTK)
+# [Link to Video](https://www.youtube.com/watch?v=tJqeWEXRt4g)
 
 So far we've been using `java.io.Scanner` for reading user input. Although it works and has simple syntax, it is not a good idea to use it when you want your program to run fast.
 
